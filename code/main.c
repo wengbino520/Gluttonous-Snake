@@ -1,8 +1,10 @@
-#include <stdio>
+#include <stdio.h>
 
 #define QUIT  ((unsigned int)0)
-#define STRAT ((unsigned int)1)
+#define START ((unsigned int)1)
 #define HELP  ((unsigned int)2)
+
+unsigned int Welcome();
 
 int main()
 {
@@ -31,6 +33,11 @@ int main()
 		}
 	}
 	printf("good work anyway, may you have a good day\n");
+	return 0;
+}
+
+unsigned int Welcome()
+{
 	return 0;
 }
 
